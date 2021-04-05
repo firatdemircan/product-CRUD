@@ -15,7 +15,7 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-     private ProductService productService;
+     private IProductService productService;
 
         // display list of employees
         @GetMapping("/")
